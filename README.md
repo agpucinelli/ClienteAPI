@@ -52,7 +52,7 @@ Modelo Json para inserir novos dados, ou atualizar cadastro existente:
 
 # GET
 # Listar
-# http://localhost:5167/cliente/listar
+## http://localhost:5167/cliente/listar
 This endpoint makes an HTTP GET request to retrieve a list of clients. The request does not include a request body. The response will have a status code of 200, and it will contain an array of client objects. Each client object will have an "id", "nome", "email", "cpf", "rg", "contatos", and "enderecos" properties. The "contatos" property will contain an array of contact objects, and the "enderecos" property will contain an array of address objects. Each contact object will have an "id", "tipo", "ddd", and "telefone" properties, while each address object will have an "id", "tipo", "cep", "logradouro", "numero", "bairro", "complemento", "cidade", "estado", and "referencia" properties.
 
 ﻿
@@ -60,7 +60,7 @@ This endpoint makes an HTTP GET request to retrieve a list of clients. The reque
 
 # GET
 # Listar com filtro Nome
-# http://localhost:5167/cliente/listar?nome=João
+## http://localhost:5167/cliente/listar?nome=João
 This endpoint makes an HTTP GET request to retrieve a list of clients based on the provided name parameter. The request should be sent to http://localhost:5167/cliente/listar with the query parameter "nome" set to the desired name.
 
 The response will have a status code of 200, and it will contain an array of client objects. Each client object includes an "id", "nome", "email", "cpf", "rg", "contatos", and "enderecos" properties. The "contatos" property is an array of contact objects, and the "enderecos" property is an array of address objects.
