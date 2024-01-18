@@ -54,7 +54,7 @@ json
 
 # GET
 # Listar
-# http://localhost:5167/cliente/LISTAR
+# http://localhost:5167/cliente/listar
 This endpoint makes an HTTP GET request to retrieve a list of clients. The request does not include a request body. The response will have a status code of 200, and it will contain an array of client objects. Each client object will have an "id", "nome", "email", "cpf", "rg", "contatos", and "enderecos" properties. The "contatos" property will contain an array of contact objects, and the "enderecos" property will contain an array of address objects. Each contact object will have an "id", "tipo", "ddd", and "telefone" properties, while each address object will have an "id", "tipo", "cep", "logradouro", "numero", "bairro", "complemento", "cidade", "estado", and "referencia" properties.
 
 ﻿
