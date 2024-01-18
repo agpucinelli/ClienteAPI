@@ -211,12 +211,9 @@ referencia (string): Any reference point for the address.
 
 ﻿
 
-Body
-raw (json)
-View More
-json
-{
-    
+Example Json:
+
+    {
     "Nome": "leo",
     "Email": "e@email.com",
     "CPF": "44444444421",
