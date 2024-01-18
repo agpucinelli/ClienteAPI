@@ -54,9 +54,10 @@ This endpoint makes an HTTP GET request to retrieve a list of clients. The reque
 
 ﻿
 
-GET
-Listar com filtro Nome
-http://localhost:5167/cliente/listar?nome=João
+
+# GET
+# Listar com filtro Nome
+# http://localhost:5167/cliente/listar?nome=João
 This endpoint makes an HTTP GET request to retrieve a list of clients based on the provided name parameter. The request should be sent to http://localhost:5167/cliente/listar with the query parameter "nome" set to the desired name.
 
 The response will have a status code of 200, and it will contain an array of client objects. Each client object includes an "id", "nome", "email", "cpf", "rg", "contatos", and "enderecos" properties. The "contatos" property is an array of contact objects, and the "enderecos" property is an array of address objects.
@@ -84,9 +85,9 @@ The response returns a status code of 200 along with an empty array, indicating 
 Query Params
 cpf
 77777777777
-GET
-Listar com filtro email
-http://localhost:5167/cliente/listar?email=email@exemple.com
+# GET
+# Listar com filtro email
+# http://localhost:5167/cliente/listar?email=email@exemple.com
 This endpoint is used to retrieve a list of clients based on the provided email address. The HTTP GET request should be sent to http://localhost:5167/cliente/listar?email=email@exemple.com.
 
 The request does not require a request body, and the response will have a status code of 200 with an empty array as the data payload.
@@ -96,9 +97,9 @@ The request does not require a request body, and the response will have a status
 Query Params
 email
 email@exemple.com
-GET
-Listar com filtros
-http://localhost:5167/cliente/listar?nome=João&email=email@example.com&cpf=77777777777
+# GET
+# Listar com filtros
+# http://localhost:5167/cliente/listar?nome=João&email=email@example.com&cpf=77777777777
 This endpoint sends an HTTP GET request to retrieve a list of clients based on the provided query parameters. The query parameters include 'nome' for the client's name, 'email' for the client's email, and 'cpf' for the client's CPF. The request does not contain a request body.
 
 The response to the last execution had a status code of 200 and an empty array as the response body, indicating that no clients matching the provided query parameters were found.
@@ -112,9 +113,9 @@ email
 email@example.com
 cpf
 77777777777
-POST
-Criar
-http://localhost:5167/cliente/criar
+# POST
+# Criar
+# http://localhost:5167/cliente/criar
 This API endpoint allows you to create a new client. When you make a POST request to http://localhost:5167/cliente/criar, with the required payload in the raw request body, a new client will be created.
 
 Request Body
@@ -240,9 +241,9 @@ json
         }
     ]
 }
-PUT
-Atualizar
-http://localhost:5167/cliente/atualizar/{id}
+# PUT
+# Atualizar
+# http://localhost:5167/cliente/atualizar/{id}
 Update Client Details
 This endpoint allows you to update the details of a client by providing the client's ID in the URL path.
 
@@ -332,9 +333,9 @@ json
         }
     ]
 }
-DELETE
-Remover
-http://localhost:5167/cliente/remover/{id}
+# DELETE
+# Remover
+# http://localhost:5167/cliente/remover/{id}
 Delete Cliente
 This endpoint is used to delete a specific client by their ID.
 
