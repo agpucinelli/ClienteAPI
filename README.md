@@ -18,34 +18,39 @@ Modelo Json para inserir novos dados, ou atualizar cadastro existente:
 
 *Não é necessário inserir "Id", o mesmo é inserido automaticamente a cada cadastro.
 
-Plain Text
+Body
+raw (json)
+View More
+json
 {
-    "Nome":"",
-    "Email":"",
-    "CPF":"",
-    "RG":"",
-    "Contatos":[
+    
+    "Nome": "leo",
+    "Email": "e@email.com",
+    "CPF": "44444444421",
+    "RG": "43564825",
+    "Contatos": [
         {
-            "Tipo":"",
-            "DDD":0,
-            "Telefone":0
+            
+            "Tipo": "casa",
+            "DDD": 11,
+            "Telefone": 945658525
         }
     ],
-    "Enderecos":[
+    "Enderecos": [
         {
-            "Tipo":"",
-            "CEP":"",
-            "Logradouro":"",
-            "Numero":0,
-            "Bairro":"",
-            "Complemento":"",
-            "Cidade":"",
-            "Estado":"",
-            "Referencia":""
+            
+            "Tipo": "En",
+            "CEP": "10405-681",
+            "Logradouro": "Rua Exemplo",
+            "Numero": 123,
+            "Bairro": "Bairro Exemplo",
+            "Complemento": "Complemento Exemplo",
+            "Cidade": "Cidade Exemplo",
+            "Estado": "SP",
+            "Referencia": "ao lado"
         }
     ]
 }
-﻿
 
 # GET
 # Listar
