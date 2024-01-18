@@ -90,7 +90,7 @@ cpf
 77777777777
 # GET
 # Listar com filtro email
-# http://localhost:5167/cliente/listar?email=email@exemple.com
+## http://localhost:5167/cliente/listar?email=email@exemple.com
 This endpoint is used to retrieve a list of clients based on the provided email address. The HTTP GET request should be sent to http://localhost:5167/cliente/listar?email=email@exemple.com.
 
 The request does not require a request body, and the response will have a status code of 200 with an empty array as the data payload.
@@ -102,7 +102,7 @@ email
 email@exemple.com
 # GET
 # Listar com filtros
-# http://localhost:5167/cliente/listar?nome=João&email=email@example.com&cpf=77777777777
+## http://localhost:5167/cliente/listar?nome=João&email=email@example.com&cpf=77777777777
 This endpoint sends an HTTP GET request to retrieve a list of clients based on the provided query parameters. The query parameters include 'nome' for the client's name, 'email' for the client's email, and 'cpf' for the client's CPF. The request does not contain a request body.
 
 The response to the last execution had a status code of 200 and an empty array as the response body, indicating that no clients matching the provided query parameters were found.
@@ -118,7 +118,7 @@ cpf
 77777777777
 # POST
 # Criar
-# http://localhost:5167/cliente/criar
+## http://localhost:5167/cliente/criar
 This API endpoint allows you to create a new client. When you make a POST request to http://localhost:5167/cliente/criar, with the required payload in the raw request body, a new client will be created.
 
 # Request Body
@@ -244,7 +244,7 @@ Example Json:
     
 # PUT
 # Atualizar
-# http://localhost:5167/cliente/atualizar/{id}
+## http://localhost:5167/cliente/atualizar/{id}
 Update Client Details
 This endpoint allows you to update the details of a client by providing the client's ID in the URL path.
 
@@ -289,7 +289,7 @@ Payload:
     
 # DELETE
 # Remover
-# http://localhost:5167/cliente/remover/{id}
+## http://localhost:5167/cliente/remover/{id}
 Delete Cliente
 This endpoint is used to delete a specific client by their ID.
 
