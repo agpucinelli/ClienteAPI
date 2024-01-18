@@ -20,8 +20,8 @@ Modelo Json para inserir novos dados, ou atualizar cadastro existente:
 
 *Não é necessário inserir "Id", o mesmo é inserido automaticamente a cada cadastro.
 
+
 {
-    
     "Nome": "leo",
     "Email": "e@email.com",
     "CPF": "44444444421",
