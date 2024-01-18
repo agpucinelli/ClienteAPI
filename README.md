@@ -14,14 +14,12 @@ VSCODE:
 
 3 - dotnet run
 
+4 - http://localhost:5167/cliente/ - Verificar qual porta o VSCODE disponibilizou a API.
+
 Modelo Json para inserir novos dados, ou atualizar cadastro existente:
 
 *Não é necessário inserir "Id", o mesmo é inserido automaticamente a cada cadastro.
 
-Body
-raw (json)
-View More
-json
 {
     
     "Nome": "leo",
