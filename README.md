@@ -31,7 +31,7 @@ json
     "Contatos": [
         {
             
-            "Tipo": "casa",
+            "Tipo": "celular",
             "DDD": 11,
             "Telefone": 945658525
         }
@@ -39,7 +39,7 @@ json
     "Enderecos": [
         {
             
-            "Tipo": "En",
+            "Tipo": "casa",
             "CEP": "10405-681",
             "Logradouro": "Rua Exemplo",
             "Numero": 123,
@@ -226,7 +226,7 @@ json
     "Contatos": [
         {
             
-            "Tipo": "casa",
+            "Tipo": "celular",
             "DDD": 11,
             "Telefone": 945658525
         }
@@ -234,7 +234,7 @@ json
     "Enderecos": [
         {
             
-            "Tipo": "En",
+            "Tipo": "casa",
             "CEP": "10405-681",
             "Logradouro": "Rua Exemplo",
             "Numero": 123,
