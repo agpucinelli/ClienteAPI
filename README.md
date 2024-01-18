@@ -257,56 +257,8 @@ Type: Raw
 
 Payload:
 
-JSON
-      {
-          "Nome":"",
-          "Email":"",
-          "CPF":"",
-          "RG":"",
-          "Contatos":[
-              {
-                  "Tipo":"",
-                  "DDD":0,
-                  "Telefone":0
-              }
-          ],
-          "Enderecos":[
-              {
-                  "Tipo":"",
-                  "CEP":"",
-                  "Logradouro":"",
-                  "Numero":0,
-                  "Bairro":"",
-                  "Complemento":"",
-                  "Cidade":"",
-                  "Estado":"",
-                  "Referencia":""
-              }
-          ]
-      }
-Response
-Status: 400
 
-Body:
-
-JSON
-      {
-          "type":"",
-          "title":"",
-          "status":0,
-          "errors":{
-              "id":[""]
-          },
-          "traceId":""
-      }
-﻿
-
-Body
-raw (json)
-View More
-json
-{
-    
+    {
     "Nome": "leo",
     "Email": "e@email.com",
     "CPF": "44444444421",
@@ -333,7 +285,8 @@ json
             "Referencia": "ao lado"
         }
     ]
-}
+    }
+    
 # DELETE
 # Remover
 # http://localhost:5167/cliente/remover/{id}
@@ -349,34 +302,3 @@ URL Parameters:
 
 id (required): The unique identifier of the client to be deleted.
 
-Request Body
-The request does not require a request body.
-
-Response
-Status: 400
-
-Body:
-
-JSON
-    {
-      "type": "",
-      "title": "",
-      "status": 0,
-      "errors": {
-        "id": [""]
-      },
-      "traceId": ""
-    }
-type: The type of the error.
-
-title: The title of the error.
-
-status: The status code of the response.
-
-errors: An object containing specific error details, in this case, the id field with an empty array.
-
-traceId: The trace identifier for the error.
-
-﻿
-
-Bod
