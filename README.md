@@ -266,7 +266,7 @@ Payload:
     "Contatos": [
         {
             
-            "Tipo": "casa",
+            "Tipo": "celular",
             "DDD": 11,
             "Telefone": 945658525
         }
@@ -274,7 +274,7 @@ Payload:
     "Enderecos": [
         {
             
-            "Tipo": "En",
+            "Tipo": "casa",
             "CEP": "10405-681",
             "Logradouro": "Rua Exemplo",
             "Numero": 123,
